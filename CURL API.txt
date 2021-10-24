@@ -1,0 +1,5 @@
+CURL APIS
+1. Init Publisher: curl --location --request GET 'http://localhost:80/initPublisher'
+2. Generate Client: curl --location --request POST 'http://localhost:80/generateClient'
+3. Subscribe: curl --location --request POST 'http://localhost:80/subscribe/7/1'
+4. Unsubscribe: curl --location --request POST 'http://localhost:80/unsubscribe/7/1'
